@@ -5,7 +5,7 @@ const firstName = 'Derrick'
 // this doesn't work because of the Constant variable that was already declared
 // firstName = 'Don'
 
-let age = 39
+let age = 28
 
 console.log(`Hello, my name is ${firstName} and I am ${age} years old`)
 
@@ -48,7 +48,7 @@ else {
     console.log('I am younter than Scott')
 }
 
-if(age !== scottAge) //NOT operator in JavaScript
+if(age !== scottAge) //NOT operator in JavaScript is !==
 { 
     console.log('I am not the same age as Scott')
 }
